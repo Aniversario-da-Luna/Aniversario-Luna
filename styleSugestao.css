@@ -1,0 +1,83 @@
+body {
+    background-image: url('bb.png');
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    
+}
+
+
+.textoSugestao{
+    margin-top: 70px;
+    color: hsl(323, 75%, 70%);
+    text-align: center;
+    font-size: 40px;
+}
+
+.textoLuna{
+    margin-top: -50px;
+    color: hsl(323, 75%, 70%);
+    text-align: center;
+    font-size: 100px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    
+}
+
+/* styles.css */
+.container2 {
+    display: flex; /* Usa Flexbox para alinhar os itens em linha */
+    flex-direction: column; /* Organiza os itens em coluna */
+    gap: 20px; /* Espaço entre cada linha de itens */
+    margin-top: -60px;
+}
+
+.item {
+    display: flex; /* Usa Flexbox para alinhar o texto e a div lado a lado */
+    align-items: center; /* Alinha verticalmente o texto com a imagem */
+    gap: 10px; /* Espaço entre a imagem e o texto */
+}
+
+.roupa, .calcado, .brinquedo {
+    width: 100px; /* Define a largura das divs */
+    height: 100px; /* Define a altura das divs */
+    background-size: cover; /* Faz a imagem cobrir toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-color: transparent; /* Torna o fundo transparente */
+}
+
+.roupa {
+    background-image: url("vestir.png");
+    background-size: 60px;
+    
+}
+
+.brinquedo {
+    background-image: url("caixa-de-armazenamento.png");
+    background-size: 60px;
+}
+
+.texto {
+    font-size: 22px; /* Define o tamanho da fonte do texto */
+    font-weight: bold; /* Define o peso da fonte do texto */
+    margin-left: 1px;
+    color: #642c28;
+}
+
+.btVoltar{
+    margin-top: 50px;
+    margin-left: 100px; /* Ajusta a posição horizontal do botão */
+    display: flex; /* Ativa o Flexbox para o alinhamento do texto */
+    height: 50px; /* Define a altura do botão */
+    width: 150px; /* Define a largura do botão */
+    padding: 10px; /* Adiciona espaço interno ao botão */
+    background-color: hsl(323, 75%, 70%); /* Cor de fundo do botão */
+    color: #000000; /* Cor do texto do botão */
+    border-radius: 15px; /* Arredonda os cantos do botão */
+    font-size: 30px; /* Tamanho da fonte do texto */
+    font-weight: bold; /* Peso da fonte do texto */
+    text-align: center; /* Centraliza o texto horizontalmente (não necessário com Flexbox, mas pode ajudar com múltiplas linhas) */
+    align-items: center; /* Alinha o texto verticalmente no centro */
+    justify-content: center; /* Centraliza o texto horizontalmente dentro do botão */         
+}
+    
